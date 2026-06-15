@@ -82,14 +82,20 @@
   .tier-card.t1 { background: var(--accent-light); border-color: var(--accent); }
   .tier-card.t2 { background: var(--light-gray); border-color: #B0A898; }
   .tier-card.t3 { background: var(--light-green); border-color: #3B7050; }
+  .tier-card.t4 { background: #253746; border-color: #1a2832; }
   .tier-card .tier-name { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 3px; }
   .tier-card.t1 .tier-name { color: #9A6A3E; }
   .tier-card.t2 .tier-name { color: #6A5F57; }
   .tier-card.t3 .tier-name { color: var(--green); }
+  .tier-card.t4 .tier-name { color: var(--accent); }
   .tier-card .tier-name-jp { font-size: 12px; margin-bottom: 8px; }
   .tier-card.t1 .tier-name-jp { color: #9A6A3E; }
   .tier-card.t2 .tier-name-jp { color: #6A5F57; }
   .tier-card.t3 .tier-name-jp { color: var(--green); }
+  .tier-card.t4 .tier-name-jp { color: var(--accent); }
+  .tier-card.t4 .amount { color: #ffffff; }
+  .tier-card.t4 .threshold { color: #C8BCAD; }
+  .tier-card.t4 .modifier { background: rgba(255,255,255,0.12); border-color: rgba(196,149,106,0.5); color: var(--accent); }
   .tier-card .amount { font-size: 20px; font-weight: 700; color: var(--dark-blue); margin-bottom: 4px; }
   .tier-card .threshold { font-size: 12px; color: #444; margin-bottom: 6px; }
   .tier-card .modifier { display: inline-block; font-size: 12px; font-weight: 700; color: var(--green); background: white; border-radius: 4px; padding: 2px 8px; border: 1px solid #97C459; }
@@ -249,31 +255,31 @@
     </div>
     <div class="article-body">
       <div class="tier-grid">
-        <div class="tier-card t1">
-          <div class="tier-name" data-lang="en">Tier 1 · Innovation Contribution</div>
-          <div class="tier-name" data-lang="jp">Tier 1 · 創新貢献賞</div>
-          <div class="tier-name-jp" data-lang="en">創新貢献賞</div>
-          <div class="amount">¥10,000 – ¥30,000</div>
-          <div class="threshold" data-lang="en">Annual savings &lt; ¥1,000,000</div>
-          <div class="threshold" data-lang="jp">年間節約額 100万円未満</div>
-          <span class="modifier">Year-end +5% / 年末 +5%</span>
-        </div>
         <div class="tier-card t2">
-          <div class="tier-name" data-lang="en">Tier 2 · Efficiency Improvement</div>
-          <div class="tier-name" data-lang="jp">Tier 2 · 効能向上賞</div>
+          <div class="tier-name" data-lang="en">Tier 1 · Efficiency Improvement</div>
+          <div class="tier-name" data-lang="jp">Tier 1 · 効能向上賞</div>
           <div class="tier-name-jp" data-lang="en">効能向上賞</div>
-          <div class="amount">¥30,000 – ¥60,000</div>
+          <div class="amount">¥50,000 – ¥150,000</div>
           <div class="threshold" data-lang="en">Annual savings ¥1M – ¥5M</div>
           <div class="threshold" data-lang="jp">年間節約額 100〜500万円</div>
           <span class="modifier">Year-end +5% / 年末 +5%</span>
         </div>
         <div class="tier-card t3">
-          <div class="tier-name" data-lang="en">Tier 3 · Strategic Innovation</div>
-          <div class="tier-name" data-lang="jp">Tier 3 · 戦略革新賞</div>
+          <div class="tier-name" data-lang="en">Tier 2 · Strategic Innovation</div>
+          <div class="tier-name" data-lang="jp">Tier 2 · 戦略革新賞</div>
           <div class="tier-name-jp" data-lang="en">戦略革新賞</div>
-          <div class="amount">¥60,000 – ¥100,000</div>
-          <div class="threshold" data-lang="en">Annual savings &gt; ¥5,000,000</div>
-          <div class="threshold" data-lang="jp">年間節約額 500万円超</div>
+          <div class="amount">¥150,000 – ¥300,000</div>
+          <div class="threshold" data-lang="en">Annual savings ¥5M – ¥15M</div>
+          <div class="threshold" data-lang="jp">年間節約額 500〜1,500万円</div>
+          <span class="modifier">Year-end +5% / 年末 +5%</span>
+        </div>
+        <div class="tier-card t4">
+          <div class="tier-name" data-lang="en">Special Recognition</div>
+          <div class="tier-name" data-lang="jp">特別表彰</div>
+          <div class="tier-name-jp" data-lang="en">特別表彰</div>
+          <div class="amount">¥300,000+</div>
+          <div class="threshold" data-lang="en">Annual savings &gt; ¥15,000,000 — amount set by management</div>
+          <div class="threshold" data-lang="jp">年間節約額 1,500万円超 — 管理職特別認定</div>
           <span class="modifier">Year-end +5% / 年末 +5%</span>
         </div>
       </div>
